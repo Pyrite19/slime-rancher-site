@@ -2,7 +2,6 @@ body {
   margin: 0px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 a {
@@ -20,16 +19,26 @@ ul {
 
 .blue-bg {
   background-color: #1f2937;
-  flex: 1 1 auto;
+  flex: 0 1 auto;
 }
 
 .grey-bg {
   background-color: #e5e7eb;
+  flex: 1 1 auto;
 }
 
 .header {
-  width: 75%;
   margin: 0% 12.5%;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
 }
@@ -45,6 +54,7 @@ ul {
   margin: 0% 12.5%;
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 
 .framed {
@@ -53,18 +63,16 @@ ul {
 }
 
 .quote {
-  width: 75%;
   margin: 0% 12.5%;
 }
 
 .sign-up {
-  width: 75%;
   margin: 0% 12.5%;
 }
 
 .footer {
-  width: 75%;
   margin: 0% 12.5%;
   background-color: #1f2937;
   color: #e5e7eb;
+  flex:grow;
 }
