@@ -1,9 +1,51 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+    display: flex;
+    gap: 8px;
+}
+
+.header {
+    width: 75%;
+    margin: 0% 12.5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.navigation {
+    font-size: 18px;
+}
+
+.gallery {
+    width: 75%;
+    margin: 0% 12.5%;
+}
+
+.quote {
+    width: 75%;
+    margin: 0% 12.5%;
+    background-color: #cacaca;
+}
+
+.sign-up {
+    width: 75%;
+    margin: 0% 12.5%;
+}
+
+.footer {
+    width: 75%;
+    margin: 0% 12.5%;
 }
