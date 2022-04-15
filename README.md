@@ -4,6 +4,8 @@ I own nothing discussed on this page, I merely wrote the code and adapted the co
 
 Pink slime logo: https://slimerancher.fandom.com/wiki/Pink_Slime
 
+Slime Rancher cover image: https://store.steampowered.com/app/433340/Slime_Rancher/
+
 Gallery images:
 https://slimerancher.fandom.com/wiki/The_Dry_Reef
 https://slimerancher.fandom.com/wiki/The_Moss_Blanket
